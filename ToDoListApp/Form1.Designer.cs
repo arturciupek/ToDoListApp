@@ -139,6 +139,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
             this.BackColor = System.Drawing.Color.Gray;
             this.ClientSize = new System.Drawing.Size(2262, 1274);
             this.Controls.Add(this.toDoListView);
@@ -152,6 +153,7 @@
             this.Controls.Add(this.titleTextBox);
             this.Controls.Add(this.label1);
             this.Name = "ToDoList";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "To Do List";
             this.Load += new System.EventHandler(this.ToDoList_Load);
             ((System.ComponentModel.ISupportInitialize)(this.toDoListView)).EndInit();
